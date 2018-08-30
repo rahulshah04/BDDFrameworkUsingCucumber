@@ -1,0 +1,702 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: Rahul.Shah@Indecomm.net"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary :"
+      },
+      {
+        "line": 3,
+        "value": "#Feature: List of scenarios."
+      },
+      {
+        "line": 4,
+        "value": "#Scenario: Business rule through list of steps with arguments."
+      },
+      {
+        "line": 5,
+        "value": "#Given: Some precondition step"
+      },
+      {
+        "line": 6,
+        "value": "#When: Some key actions"
+      },
+      {
+        "line": 7,
+        "value": "#Then: To observe outcomes or validation"
+      },
+      {
+        "line": 8,
+        "value": "#And,But: To enumerate more Given,When,Then steps"
+      },
+      {
+        "line": 9,
+        "value": "#Scenario Outline: List of steps for data-driven as an Examples and \u003cplaceholder\u003e"
+      },
+      {
+        "line": 10,
+        "value": "#Examples: Container for s table"
+      },
+      {
+        "line": 11,
+        "value": "#Background: List of steps run before each of the scenarios"
+      },
+      {
+        "line": 12,
+        "value": "#\"\"\" (Doc Strings)"
+      },
+      {
+        "line": 13,
+        "value": "#| (Data Tables)"
+      },
+      {
+        "line": 14,
+        "value": "#@ (Tags/Labels):To group Scenarios"
+      },
+      {
+        "line": 15,
+        "value": "#\u003c\u003e (placeholder)"
+      },
+      {
+        "line": 16,
+        "value": "#\"\""
+      },
+      {
+        "line": 17,
+        "value": "## (Comments)"
+      },
+      {
+        "line": 18,
+        "value": "#Sample Feature Definition Template"
+      }
+    ],
+    "line": 20,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 228738181,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberSteps.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "Customer is able to book the Round Trip flight",
+        "description": "",
+        "id": "automated-end-to-end-test;customer-is-able-to-book-the-round-trip-flight;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1657286312,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberSteps.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18911496139,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User in on Mercury Tours Home Page",
+            "match": {
+              "location": "CucumberSteps.user_in_on_Mercury_Tours_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 676112214,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Enter \"rahulshah1092@gmail.com\" and \"rahul@1992\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rahulshah1092@gmail.com",
+                  "offset": 7
+                },
+                {
+                  "val": "rahul@1992",
+                  "offset": 37
+                }
+              ],
+              "location": "CucumberSteps.enter_Username_and_Password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2985504238,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Click on SignIn Button",
+            "match": {
+              "location": "CucumberSteps.click_on_SignIn_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 372979904,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User navigate to mercury Reservation Page",
+            "match": {
+              "location": "CucumberSteps.user_navigate_to_mercury_Reservation_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 532541622,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Click on RoundTrip Radio button",
+            "match": {
+              "location": "CucumberSteps.click_on_RoundTrip_Radio_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 510457568,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Select Departing From dropdown option",
+            "match": {
+              "location": "CucumberSteps.select_Departing_From_dropdown_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 454096184,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Select Arriving In dropdown option",
+            "match": {
+              "location": "CucumberSteps.select_Arriving_In_dropdown_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 361520772,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Select Service ClassType radio button",
+            "match": {
+              "location": "CucumberSteps.select_Service_ClassType_radio_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1747863725,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Click on Continue button",
+            "match": {
+              "location": "CucumberSteps.click_on_Continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 383960066,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User navigate to Airline booking details Page",
+            "match": {
+              "location": "CucumberSteps.user_navigate_to_Airline_booking_details_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 371843485,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Select Depart Flight details",
+            "match": {
+              "location": "CucumberSteps.select_Depart_Flight_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 375301211,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Select Return Flight details",
+            "match": {
+              "location": "CucumberSteps.select_Return_Flight_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2074066261,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Click Continue button",
+            "match": {
+              "location": "CucumberSteps.click_Continue_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 387964617,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User navigate to Book flight landing Page",
+            "match": {
+              "location": "CucumberSteps.user_navigate_to_Book_flight_landing_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 808392169,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Enter \"FirstName\" and \"LastName\" of Customer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FirstName",
+                  "offset": 7
+                },
+                {
+                  "val": "LastName",
+                  "offset": 23
+                }
+              ],
+              "location": "CucumberSteps.enter_First_and_Last_name_of_Customer(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 419950575,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Enter Credit Card \"Number\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Number",
+                  "offset": 19
+                }
+              ],
+              "location": "CucumberSteps.enter_Credit_Card(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3061683680,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Click on Secure Purchase button",
+            "match": {
+              "location": "CucumberSteps.click_on_Secure_Purchase_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 367743993,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User will navigate to Flight Confirmation Page",
+            "match": {
+              "location": "CucumberSteps.user_will_navigate_to_Flight_Confirmation_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 383064272,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Ticket is booked Successfully",
+            "match": {
+              "location": "CucumberSteps.ticket_is_booked_Successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1981234255,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User Click on Back to Home button",
+            "match": {
+              "location": "CucumberSteps.user_Click_on_Back_to_Home_Button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@FlightRoundTrip"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2003417,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberSteps.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 75,
+        "name": "Customer is able to book the Round Trip flight",
+        "description": "",
+        "id": "automated-end-to-end-test;customer-is-able-to-book-the-round-trip-flight;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 886862696,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberSteps.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15107962405,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User in on Mercury Tours Home Page",
+            "match": {
+              "location": "CucumberSteps.user_in_on_Mercury_Tours_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 623819533,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Enter \"rahulshah1092@gmail.com\" and \"rahul@1992\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rahulshah1092@gmail.com",
+                  "offset": 7
+                },
+                {
+                  "val": "rahul@1992",
+                  "offset": 37
+                }
+              ],
+              "location": "CucumberSteps.enter_Username_and_Password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4402692168,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Click on SignIn Button",
+            "match": {
+              "location": "CucumberSteps.click_on_SignIn_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 445163347,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "User navigate to mercury Reservation Page",
+            "match": {
+              "location": "CucumberSteps.user_navigate_to_mercury_Reservation_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 621436074,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "Click on OneWay Radio button",
+            "match": {
+              "location": "CucumberSteps.click_on_Oneway_Radio_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 457275935,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "Select Departing From dropdown option",
+            "match": {
+              "location": "CucumberSteps.select_Departing_From_dropdown_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 498565934,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "Select Arriving In dropdown option",
+            "match": {
+              "location": "CucumberSteps.select_Arriving_In_dropdown_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 362195895,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "Select Service ClassType radio button",
+            "match": {
+              "location": "CucumberSteps.select_Service_ClassType_radio_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2777453680,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "Click on Continue button",
+            "match": {
+              "location": "CucumberSteps.click_on_Continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 388203533,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "User navigate to Airline booking details Page",
+            "match": {
+              "location": "CucumberSteps.user_navigate_to_Airline_booking_details_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 373166933,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "Select Depart Flight details",
+            "match": {
+              "location": "CucumberSteps.select_Depart_Flight_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 380892074,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "Select Return Flight details",
+            "match": {
+              "location": "CucumberSteps.select_Return_Flight_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2158274193,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "Click Continue button",
+            "match": {
+              "location": "CucumberSteps.click_Continue_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 393156908,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "User navigate to Book flight landing Page",
+            "match": {
+              "location": "CucumberSteps.user_navigate_to_Book_flight_landing_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 577536815,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "Enter \"FirstName\" and \"LastName\" of Customer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FirstName",
+                  "offset": 7
+                },
+                {
+                  "val": "LastName",
+                  "offset": 23
+                }
+              ],
+              "location": "CucumberSteps.enter_First_and_Last_name_of_Customer(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 461465519,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "Enter Credit Card \"Number\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Number",
+                  "offset": 19
+                }
+              ],
+              "location": "CucumberSteps.enter_Credit_Card(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2250758943,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "Click on Secure Purchase button",
+            "match": {
+              "location": "CucumberSteps.click_on_Secure_Purchase_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 365559537,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "User will navigate to Flight Confirmation Page",
+            "match": {
+              "location": "CucumberSteps.user_will_navigate_to_Flight_Confirmation_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 358927763,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "Ticket is booked Successfully",
+            "match": {
+              "location": "CucumberSteps.ticket_is_booked_Successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1746147122,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "User Click on Back to Home button",
+            "match": {
+              "location": "CucumberSteps.user_Click_on_Back_to_Home_Button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 50,
+            "name": "@FlightOneWay"
+          }
+        ]
+      }
+    ],
+    "name": "Automated End to End Test",
+    "description": "Description: Test End to End Intergation of Mercury Tours Site",
+    "id": "automated-end-to-end-test",
+    "keyword": "Feature",
+    "uri": "src/test/resources/featurefile/End2EndTest.feature"
+  }
+]

@@ -1,0 +1,4 @@
+com\tsg\CucumberFramework\tests\e2ETest.class
+com\tsg\CucumberFramework\AppTest.class
+com\tsg\CucumberFramework\TestSuites\TestRunner.class
+com\tsg\CucumberFramework\StepDefinitions\CucumberSteps.class

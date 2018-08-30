@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.tsg.CucumberFramework.TestSuites.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 21, Time elapsed: 0.511 sec
